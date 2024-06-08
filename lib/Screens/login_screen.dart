@@ -55,9 +55,9 @@ class LoginScreen extends StatelessWidget {
                     'assets/images/scholar.png',
                     height: 100,
                   ),
-                  Row(
+                  const Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children: [
                       Text(
                         'Scholar Chat',
                         style: TextStyle(
@@ -71,8 +71,8 @@ class LoginScreen extends StatelessWidget {
                   const SizedBox(
                     height: 75,
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Text(
                         'Sign In',
                         style: TextStyle(
